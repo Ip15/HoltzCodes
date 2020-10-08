@@ -5,3 +5,13 @@
 	mov a,40h
 	mov r0,#50h
 	mov a,@r0
+	mov a,60h
+    	mov r1,a
+    	mov 60h,r5
+    	mov 50h,70h
+    	mov 50h,@r0
+    	mov 50h,#60h
+    	mov @r1,a
+    	mov @r1,70h
+    	mov @r2,#55h
+    	mov dptr,#1000h
